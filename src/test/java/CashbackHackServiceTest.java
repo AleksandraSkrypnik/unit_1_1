@@ -6,7 +6,7 @@ import static org.testng.Assert.assertEquals;
 public class CashbackHackServiceTest {
 
     @Test
-    void IfAmountMoreThenBoundary() {
+    public void IfAmountMoreThenBoundary() {
         CashbackHackService service = new CashbackHackService();
         int amount = 43500;
 
@@ -17,7 +17,7 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    void IfAmountLessThenBoundary() {
+    public void IfAmountLessThenBoundary() {
         CashbackHackService service = new CashbackHackService();
         int amount = 900;
 
@@ -28,7 +28,7 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    void IfAmountSameBoundary() {
+    public void IfAmountSameBoundary() {
         CashbackHackService service = new CashbackHackService();
         int amount = 1000;
 
